@@ -20,7 +20,7 @@ const NewCarousel = () => {
             </div>
             <div className="relative REl pt-16 pb-40 pt">
                 <div className="mt-48 mt ml-16">
-                    <h1 className='font-bold text-5xl text-orange-900 h1'>Cocoa Product That <br />Gives The Best <br />Skin Feeling</h1>
+                    <h1 className='font-bold text-5xl text-orange-900 h1'>Cocoa Product That <p> Gives The Best </p><p> Skin Feeling</p></h1>
                     <button className='py-4 px-32 border-4 text-orange-900 btn mt-8 bg-transparent border-orange-900 hover:bg-orange-900 hover:text-white font-semibold text-xl rounded-full'>WHAT WE DO</button>
                 </div>
             </div>
@@ -64,9 +64,9 @@ const NewCarousel = () => {
     {/* Director start */}
         <div className="bg-orange-900 AW grid grid-cols-2">
             <div className="py-24 relative DR ml-24 w-3/4">
-                <h1 className='text-white font-bold text-4xl py-8 mt-8 italic SPH ml-6'>Director's Speach <br /> to Clients Side</h1>
+                <h1 className='text-white font-bold text-4xl py-8 mt-8 italic SPH ml-6'>Director's Speach <p> to Clients Side</p></h1>
                 <div className="p">
-                    <p className='text-white ml-24 Dr'>Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit. Odio sunt, beatae minus ratione non error dolor <br /> pariatur, odit veritatis itaque earum tenetur dolorum <br /> similique iure assumenda sint consequatur quo.</p>
+                    <p className='text-white ml-24 Dr'>Lorem ipsum dolor sit amet consectetur adipisicing <p> elit. Odio sunt, beatae minus ratione non error dolor</p><p> pariatur, odit veritatis itaque earum tenetur dolorum </p> similique iure assumenda sint consequatur quo.</p>
                 </div>
                 <button className='ml-6 py-4 px-24 border-4 text-white btn mt-8 bg-transparent btnd border-white hover:bg-white hover:text-orange-900 font-semibold text-xl rounded-full'>READ MORE</button>
             </div>
