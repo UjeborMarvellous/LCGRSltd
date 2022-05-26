@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {Transition} from "@headlessui/react";
+import Link from 'next/link';
 
 
 function Navbar() {
@@ -16,10 +17,10 @@ function Navbar() {
                                   </div>
                                 <div className="md:block">
                                   <div className="flex items-baseline space-x-4 width">
-                                      <a href="/" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Home</a>
-                                      <a href="/About" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">About us</a>
-                                      <a href="/" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Gallery</a>
-                                      <a href="/" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Contact us</a>
+                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Home</a></Link>
+                                    <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">About us</a></Link>
+                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Gallery</a></Link> 
+                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Contact us</a></Link> 
                                   </div>
                                 </div>
                                </div>
@@ -43,10 +44,10 @@ function Navbar() {
                     {(ref) => (
                         <div className="lg:hidden id=mobile-menu bg-white">
                             <div ref={ref} className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                                <a href="/" className="cursor-pointer hover:bg-orange-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                                <a href="/About" className="cursor-pointer hover:bg-orange-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About us</a>
-                                <a href="/" className="cursor-pointer hover:bg-orange-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Gallery</a>
-                                <a href="/" className="cursor-pointer hover:bg-orange-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact us</a>
+                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Home</a></Link>
+                                <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">About us</a></Link>
+                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Gallery</a></Link> 
+                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Contact us</a></Link> 
                             </div>
                         </div>
                         

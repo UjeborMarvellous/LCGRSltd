@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import { FaAddressCard } from "react-icons/fa"
 import { FiPhoneCall } from "react-icons/fi"
 import { FaFacebookF } from "react-icons/fa"
@@ -25,8 +26,8 @@ const NewCarousel = () => {
             </div>
         </div>
         <div className="grid grid-cols-2 bg-orange-900 p-4 min absolute w-full">
-            <a href="/" className='flex ml-32 MR'><FaAddressCard className='text-5xl text-white '/><span className='ml-6 text-white text-sm my-auto'>SUITE 1, HOUSE 24, CHURCH STREET ZONE1, LUGBE ACROSS ZONE 1, AIRPORT ROAD , ABUJA</span></a>
-            <a href="/" className='flex ml-32 ML'><FiPhoneCall  className='text-5xl text-white border-2 border-white rounded-full p-2'/><span className='ml-6 text-white text-sm my-auto'>+2348133110229</span></a>
+            <Link href="/"><a className='flex ml-32 MR'><FaAddressCard className='text-5xl text-white '/><span className='ml-6 text-white text-sm my-auto'>SUITE 1, HOUSE 24, CHURCH STREET ZONE1, LUGBE ACROSS ZONE 1, AIRPORT ROAD , ABUJA</span></a></Link>
+            <Link href="/"><a className='flex ml-32 ML'><FiPhoneCall  className='text-5xl text-white border-2 border-white rounded-full p-2'/><span className='ml-6 text-white text-sm my-auto'>+2348133110229</span></a></Link>
         </div>
     {/* Head page stop */}
     {/* Product start */}
