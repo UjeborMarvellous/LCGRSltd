@@ -43,7 +43,7 @@ function Navbar() {
                 <Transition show={isOpen} enter="transition ease-out duration-100 transform" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="transition ease-in duration-75 transform" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
                     {(ref) => (
                         <div className="lg:hidden id=mobile-menu bg-white">
-                            <div ref={ref} className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                            <div ref={ref} className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 msx">
                                 <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Home </a></Link>
                                 <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> About </a></Link>
                                 <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Gallery </a></Link> 

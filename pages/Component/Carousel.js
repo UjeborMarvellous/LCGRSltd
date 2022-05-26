@@ -26,8 +26,8 @@ const NewCarousel = () => {
             </div>
         </div>
         <div className="grid grid-cols-2 bg-orange-900 p-4 min absolute w-full">
-            <Link href="/"><a className="flex ml-32 MR"> <FaAddressCard className="text-5xl text-white "/><span className="ml-6 text-white text-sm my-auto">SUITE 1, HOUSE 24, CHURCH STREET ZONE1, LUGBE ACROSS ZONE 1, AIRPORT ROAD , ABUJA</span> </a></Link>
-            <Link href="/"><a className="flex ml-32 MR"> <FiPhoneCall  className="text-5xl text-white border-2 border-white rounded-full p-2"/><span className="ml-6 text-white text-sm my-auto">+2348133110229</span> </a></Link>
+            <Link href="/"><a className="flex ml-32 MR"> <FaAddressCard className="text-5xl text-white "/><span className="ml-6 text-white text-sm my-auto MR">SUITE 1, HOUSE 24, CHURCH STREET ZONE1, LUGBE ACROSS ZONE 1, AIRPORT ROAD , ABUJA</span> </a></Link>
+            <Link href="/"><a className="flex ml-32 MR"> <FiPhoneCall  className="text-5xl text-white border-2 border-white rounded-full p-2"/><span className="MR ml-6 text-white text-sm my-auto">+2348133110229</span> </a></Link>
         </div>
     {/* Head page stop */}
     {/* Product start */}
@@ -37,25 +37,25 @@ const NewCarousel = () => {
             <figure className="fig">
                 <img src="./IMG/4.jpg" alt="loading..." className="h contain" />
                 <figcaption>
-                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin <span className="">Feeling</span></p>
+                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin Feeling</p>
                 </figcaption>
             </figure>
             <figure className="fig">
                 <img src="./IMG/4.jpg" alt="loading..." className="h contain" />
                 <figcaption>
-                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin <span className="">Feeling</span></p>
+                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin Feeling</p>
                 </figcaption>
             </figure>
             <figure className="fig">
                 <img src="./IMG/4.jpg" alt="loading..." className="h contain" />
                 <figcaption>
-                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin <span className="">Feeling</span></p>
+                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin Feeling</p>
                 </figcaption>
             </figure>
             <figure className="fig">
                 <img src="./IMG/4.jpg" alt="loading..." className="h contain" />
                 <figcaption>
-                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin <span className="">Feeling</span></p>
+                    <p className="text-lg font-semibold xl">Cocoa Cream Product For The Best Skin Feeling</p>
                 </figcaption>
             </figure>
         </div>

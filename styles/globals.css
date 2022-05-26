@@ -126,18 +126,30 @@ body{
   }
 }
 @media screen and (max-width:425px) {
+  .msx {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .cont {
     margin-top: 2rem;
-    margin-left: -35%;
+    margin-left: -42%;
     height: 250px;
     width: 300px;
   }
   .AS {
     margin-top: 5rem;
+    font-size: 1.3rem;
   }
   .SPH {
     font-size: 2rem;
-    margin-left: 2rem;
+    text-align: center;
+  }
+  .RES{
+    white-space: normal;
+  }
+  .MR {
+    font-size: 0.6rem !important;
+    margin-left: 1rem !important;
   }
   .btnd {
     display: block;
@@ -151,8 +163,8 @@ body{
     margin-top: 9rem;
   }
   .Dr {
-    margin-left: 0rem;
     text-align: center;
+    font-size: 0.8rem;
   }
   .Imk {
     margin-top: -50%;
@@ -165,7 +177,7 @@ body{
     gap: 12px;
   }
   .xl {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
   }
   .h {
