@@ -13,14 +13,14 @@ function Navbar() {
                         <div className="flex items items-center py-2 bg-white justify-between w-full">
                             <div className=" mx-24 flex items items-center bg-white justify-between w-full">
                                   <div className="flex justify-center items-center flex-shrink-0 LEFT">
-                                      <i className=""><a href="/" className="flex"><img src="./IMG/Dabino.jpg" alt="" className="w-16 h-16 rounded-full bg-orange-900 p-1" /><span className="ml-2 mt-4 font-bold text-3xl cursor-pointer">LCGRS<span className="lowercase text-xl">LTD</span></span></a></i>
+                                      <Link href="/"><a className="flex"> <img src="./IMG/Dabino.jpg" alt="" className="w-16 h-16 rounded-full bg-orange-900 p-1" /><span className="ml-2 mt-4 font-bold text-3xl cursor-pointer">LCGRS<span className="lowercase text-xl">LTD</span></span> </a></Link>
                                   </div>
                                 <div className="md:block">
                                   <div className="flex items-baseline space-x-4 width">
-                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Home</a></Link>
-                                    <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">About us</a></Link>
-                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Gallery</a></Link> 
-                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Contact us</a></Link> 
+                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Home </a></Link>
+                                    <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> About </a></Link>
+                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Gallery </a></Link> 
+                                    <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Contact us </a></Link> 
                                   </div>
                                 </div>
                                </div>
@@ -44,10 +44,10 @@ function Navbar() {
                     {(ref) => (
                         <div className="lg:hidden id=mobile-menu bg-white">
                             <div ref={ref} className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Home</a></Link>
-                                <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">About us</a></Link>
-                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Gallery</a></Link> 
-                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Contact us</a></Link> 
+                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Home </a></Link>
+                                <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> About </a></Link>
+                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Gallery </a></Link> 
+                                <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Contact us </a></Link>
                             </div>
                         </div>
                         

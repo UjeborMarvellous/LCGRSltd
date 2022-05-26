@@ -26,8 +26,8 @@ const NewCarousel = () => {
             </div>
         </div>
         <div className="grid grid-cols-2 bg-orange-900 p-4 min absolute w-full">
-            <Link href="/"><a className='flex ml-32 MR'><FaAddressCard className='text-5xl text-white '/><span className='ml-6 text-white text-sm my-auto'>SUITE 1, HOUSE 24, CHURCH STREET ZONE1, LUGBE ACROSS ZONE 1, AIRPORT ROAD , ABUJA</span></a></Link>
-            <Link href="/"><a className='flex ml-32 ML'><FiPhoneCall  className='text-5xl text-white border-2 border-white rounded-full p-2'/><span className='ml-6 text-white text-sm my-auto'>+2348133110229</span></a></Link>
+            <Link href="/"><a className='flex ml-32 MR'> <FaAddressCard className='text-5xl text-white '/><span className='ml-6 text-white text-sm my-auto'>SUITE 1, HOUSE 24, CHURCH STREET ZONE1, LUGBE ACROSS ZONE 1, AIRPORT ROAD , ABUJA</span> </a></Link>
+            <Link href="/"><a className='flex ml-32 MR'> <FiPhoneCall  className='text-5xl text-white border-2 border-white rounded-full p-2'/><span className='ml-6 text-white text-sm my-auto'>+2348133110229</span> </a></Link>
         </div>
     {/* Head page stop */}
     {/* Product start */}
@@ -62,18 +62,6 @@ const NewCarousel = () => {
     </div>
     {/* Product stop */}
     {/* Director start */}
-            {/* <div className="two bg-black p-20 grid grid-cols-2 sep">
-                <div className="det">
-                    <h1 className="HA text-white font-semibold text-3xl MT mt-32">We started small, Now we grown a lot with help of you. Integer magna augue, ultricies eu at. Duis et libero molestie aliquet, semper sem.</h1>
-                    <button className="AN bg-white text-black font-semibold py-4 mt-8 px-16 flex z-50 hover:border-2 hover:bg-transparent hover:text-white hover:border-white hover:py-4 hover:px-16 ">SEE WHAT WE DO&nbsp;&nbsp;&nbsp;<span className="my-auto text-2xl font-thin"><BsArrowRight /></span></button>
-                </div>
-                <div className="img ">
-                    <img src="/9.jpg" alt="Loading..." className="RA" loading="lazy"/>
-                </div>
-            </div> */}
-        {/* <div className="Imh">
-            <img src="./IMG/3.jpg" alt='loading...' className='w-1/4 cont absolute' />
-        </div> */}
         <div className="bg-orange-900 AW grid grid-cols-2">
             <div className="py-24 relative DR ml-24 w-3/4">
                 <h1 className='text-white font-bold text-4xl py-8 mt-8 italic SPH ml-6'>Director's Speach <br /> to Clients Side</h1>
@@ -92,24 +80,24 @@ const NewCarousel = () => {
             <div className="grid grid-cols-2 gap-2 GB">
                 <div className="Thrid">
                     {/* <h1 className="font-bold ml-auto mt-16 lg:block lg:mx-auto mr-32  text-white text-2xl p-3 lg:hidden rounded-full border-4 border-white block text-center w-16">h.</h1> */}
-                    <i className=" lg:hidden"><a href="/" className="flex"><img src="./IMG/Dabino.jpg" alt="" className="w-16 h-16 rounded-full bg-orange-900 p-1" /><span className="ml-2 mt-4 font-bold text-3xl cursor-pointer">LCGRS<span className="lowercase text-xl">LTD</span></span></a></i>
+                    <Link href="/"><a className="flex lg:hidden"> <img src="./IMG/Dabino.jpg" alt="" className="w-16 h-16 rounded-full bg-orange-900 p-1" /><span className="ml-2 mt-4 font-bold text-3xl cursor-pointer">LCGRS<span className="lowercase text-xl">LTD</span></span> </a></Link>
                     <div className="flex">
-                        <a href="/" className="text-3xl ml-10 mt-8 text-black"><FaFacebookF /></a>
-                        <a href="/" className="text-3xl ml-10 mt-8 text-black"><BsTwitter /></a>
-                        <a href="/" className="text-3xl ml-10 mt-8 text-black"><FaWhatsapp /></a>
-                        <a href="/" className="text-3xl ml-10 mt-8 text-black"><SiInstagram /></a>
+                        <Link href="/"><a className="text-3xl ml-10 mt-8 text-black"> <FaFacebookF /> </a></Link>
+                        <Link href="/"><a className="text-3xl ml-10 mt-8 text-black"> <BsTwitter /> </a></Link>
+                        <Link href="/"><a className="text-3xl ml-10 mt-8 text-black"> <FaWhatsapp /> </a></Link>
+                        <Link href="/"><a className="text-3xl ml-10 mt-8 text-black"> <SiInstagram /> </a></Link>
                     </div>
                     <p className="text-gray-500 mt-16 text-white whitespace-nowrap RES">Copyright © AgniHD 2017 All Rights Reserved.</p>
                 </div>
                 <div className="two">
                     <div className="flex HAGC items-baseline space-x-4">
-                        <a href="/" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg mr-16">Home</a>
-                        <a href="/" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">About us</a>
-                        <a href="/" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg HL ml-4">Gallery</a>
-                        <a href="/" className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg">Contact us</a>
+                        <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Home </a></Link>
+                        <Link href="/About"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> About </a></Link>
+                        <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Gallery </a></Link> 
+                        <Link href="/"><a className="px-6 font-semibold py-2 text-md hover:bg-orange-900 hover:text-white shadow-lg"> Contact us </a></Link>
                     </div>         
                     {/* <h1 className="sA font-bold ml-auto mt-16 text-white text-2xl p-3 rounded-full border-4 border-white block text-center w-16 HK ABS">h.</h1> */}
-                    <i className=""><a href="/" className="flex sA HK ABS mt-16"><img src="./IMG/Dabino.jpg" alt="" className="w-16 h-16 rounded-full bg-orange-900 p-1" /><span className="ml-2 mt-4 font-bold text-3xl cursor-pointer">LCGRS<span className="lowercase text-xl">LTD</span></span></a></i>
+                    <Link href="/"><a className="flex sA HK ABS mt-16"> <img src="./IMG/Dabino.jpg" alt="" className="w-16 h-16 rounded-full bg-orange-900 p-1" /><span className="ml-2 mt-4 font-bold text-3xl cursor-pointer">LCGRS<span className="lowercase text-xl">LTD</span></span> </a></Link>
                 </div>
             </div>
         </div>
